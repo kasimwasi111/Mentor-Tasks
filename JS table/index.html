@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #dynamicTable {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+      }
+
+      #dynamicTable td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        align-items: center;
+      }
+      #dynamicTable th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        background-color: #f2f2f2;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table id="dynamicTable">
+      <thead>
+        <tr>
+          <th>c1</th>
+          <th>c2</th>
+          <th>c3</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script>
+      let table = document
+        .getElementById("dynamicTable")
+        .getElementsByTagName("tbody")[0];
+      for (let i = 0; i < 5; i++) {
+        let row = table.insertRow(i);
+        for (let j = 0; j < 3; j++) {
+          let cell = row.insertCell(j);
+          cell.innerHTML = "Row" + (i + 1) + ",Column" + (j + 1);
+        }
+      }
+    </script>
+  </body>
+</html>

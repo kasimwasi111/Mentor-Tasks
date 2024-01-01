@@ -1,0 +1,128 @@
+[
+  {
+    "question": "Which is the largest animal in the world?",
+    "options": [
+      { "op": "a", "text": "Shark", "correct": false },
+      { "op": "b", "text": "Blue whale", "correct": true },
+      { "op": "c", "text": "Elephant", "correct": false },
+      { "op": "d", "text": "Hen", "correct": false }
+    ]
+  },
+  {
+    "question": "Who painted the famous painting 'Starry Night'?",
+    "options": [
+      { "op": "a", "text": "Vincent van Gogh", "correct": true },
+      { "op": "b", "text": "Pablo Picasso", "correct": false },
+      { "op": "c", "text": "Leonardo da Vinci", "correct": false },
+      { "op": "d", "text": "Claude Monet", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "options": [
+      { "op": "a", "text": "Wa", "correct": false },
+      { "op": "b", "text": "H2O", "correct": true },
+      { "op": "c", "text": "Hy", "correct": false },
+      { "op": "d", "text": "Wo", "correct": false }
+    ]
+  },
+  {
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": [
+      { "op": "a", "text": "Mars", "correct": true },
+      { "op": "b", "text": "Jupiter", "correct": false },
+      { "op": "c", "text": "Venus", "correct": false },
+      { "op": "d", "text": "Saturn", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is the author of 'The Great Gatsby'?",
+    "options": [
+      { "op": "a", "text": "F. Scott Fitzgerald", "correct": true },
+      { "op": "b", "text": "Ernest Hemingway", "correct": false },
+      { "op": "c", "text": "Mark Twain", "correct": false },
+      { "op": "d", "text": "William Faulkner", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": [
+      { "op": "a", "text": "Heart", "correct": false },
+      { "op": "b", "text": "Liver", "correct": false },
+      { "op": "c", "text": "Skin", "correct": true },
+      { "op": "d", "text": "Lungs", "correct": false }
+    ]
+  },
+  {
+    "question": "Which country is famous for producing maple syrup?",
+    "options": [
+      { "op": "a", "text": "France", "correct": false },
+      { "op": "b", "text": "Canada", "correct": true },
+      { "op": "c", "text": "Germany", "correct": false },
+      { "op": "d", "text": "Italy", "correct": false }
+    ]
+  },
+  {
+    "question": "Who is known as the 'Father of Computer Science'?",
+    "options": [
+      { "op": "a", "text": "Charles Babbage", "correct": true },
+      { "op": "b", "text": "Alan Turing", "correct": false },
+      { "op": "c", "text": "Tim Berners-Lee", "correct": false },
+      { "op": "d", "text": "Ada Lovelace", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the national flower of Japan?",
+    "options": [
+      { "op": "a", "text": "Rose", "correct": false },
+      { "op": "b", "text": "Cherry blossom", "correct": true },
+      { "op": "c", "text": "Lotus", "correct": false },
+      { "op": "d", "text": "Tulip", "correct": false }
+    ]
+  },
+  {
+    "question": "Which scientist formulated the theory of relativity?",
+    "options": [
+      { "op": "a", "text": "Isaac Newton", "correct": false },
+      { "op": "b", "text": "Albert Einstein", "correct": true },
+      { "op": "c", "text": "Galileo Galilei", "correct": false },
+      { "op": "d", "text": "Stephen Hawking", "correct": false }
+    ]
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": [
+      { "op": "a", "text": "Amazon River", "correct": false },
+      { "op": "b", "text": "Nile River", "correct": true },
+      { "op": "c", "text": "Mississippi River", "correct": false },
+      { "op": "d", "text": "Yangtze River", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the primary component of the Earth's atmosphere?",
+    "options": [
+      { "op": "a", "text": "Oxygen", "correct": false },
+      { "op": "b", "text": "Nitrogen", "correct": true },
+      { "op": "c", "text": "Carbon dioxide", "correct": false },
+      { "op": "d", "text": "Hydrogen", "correct": false }
+    ]
+  },
+  {
+    "question": "Who wrote the play 'Hamlet'?",
+    "options": [
+      { "op": "a", "text": "William Shakespeare", "correct": true },
+      { "op": "b", "text": "George Bernard Shaw", "correct": false },
+      { "op": "c", "text": "Oscar Wilde", "correct": false },
+      { "op": "d", "text": "Anton Chekhov", "correct": false }
+    ]
+  },
+  {
+    "question": "What is the largest desert in the world?",
+    "options": [
+      { "op": "a", "text": "Sahara Desert", "correct": true },
+      { "op": "b", "text": "Gobi Desert", "correct": false },
+      { "op": "c", "text": "Arabian Desert", "correct": false },
+      { "op": "d", "text": "Kalahari Desert", "correct": false }
+    ]
+    }
+]
