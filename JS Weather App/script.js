@@ -16,7 +16,7 @@ const apiUrl =
 async function checkWeather(city) {
   const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
 
-  if (response.status == 404) {
+  if (response.status === 404) {
     error.style.display = "block";
     weather.style.display = "none";
   } else {
@@ -28,15 +28,15 @@ async function checkWeather(city) {
     humidity.innerHTML = data?.main?.humidity + "%";
     wind.innerHTML = data?.wind?.speed + "km/h";
 
-    if (data.weather[0].main == "Clouds") {
+    if (data?.weather[0]?.main === "Clouds") {
       weatherIcon.src = "images/clouds.png";
-    } else if (data.weather[0].main == "Clear") {
+    } else if (data?.weather[0]?.main === "Clear") {
       weatherIcon.src = "images/clear.png";
-    } else if (data.weather[0].main == "Rain") {
+    } else if (data?.weather[0]?.main === "Rain") {
       weatherIcon.src = "images/rain.png";
-    } else if (data.weather[0].main == "Drizzle") {
+    } else if (data?.weather[0]?.main === "Drizzle") {
       weatherIcon.src = "images/drizzle.png";
-    } else if (data.weather[0].main == "Mist") {
+    } else if (data?.weather[0]?.main === "Mist") {
       weatherIcon.src = "images/mist.png";
     }
     weather.style.display = "block";
