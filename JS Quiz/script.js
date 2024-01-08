@@ -9,9 +9,6 @@ async function startQuiz() {
   try {
     const response = await fetch("./questions.json");
     const data = await response.json();
-    // if (!Array.isArray(data)) {
-    //   throw new Error("Invalid data format");
-    // }
     questions = data;
     currentQueIndex = 0;
     score = 0;
